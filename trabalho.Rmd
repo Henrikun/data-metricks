@@ -1,0 +1,157 @@
+---
+title: |
+    | RECHEADOS S&A - ESFIHARIA DELIVERY 
+    | Proposta Comercial de Prestação de Serviços
+author:
+- Henrique Cesar Costa^[[Mestre em Economia Aplicada e Cientista de Dados](https://about.me/henriquecosta)]
+- Tiago Brito Ferreira^[[Mestrando em Economia - PUC-SP](https://www.linkedin.com/in/tiagobritoferreira/)]
+date: "`r format(Sys.time(), '%d de %B, %Y')`"
+output: 
+  pdf_document:
+    toc: false
+    number_sections: true
+    includes:
+      in_header: header.tex
+geometry: margin=1in
+fontfamily: mathpazo
+fontsize: 11pt
+bibliography: 'references.bib'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+def.chunk.hook  <- knitr::knit_hooks$get("chunk")
+knitr::knit_hooks$set(chunk = function(x, options) {
+  x <- def.chunk.hook(x, options)
+  ifelse(options$size != "normalsize", paste0("\\", options$size,"\n\n", x, "\n\n \\normalsize"), x)
+})
+
+```
+
+\newpage
+
+# CARTA PROPOSTA
+
+Aos Senhores Empresários,
+
+&nbsp;
+
+Sócio-Administrador **GUSTAVO SILVA ARRUDA**, Sócio **DANIEL DE ARRUDA** e Sócia **KAROLINY SILVA ARRUDA**.
+
+
+Pelo presente instrumento particular de Proposta de Prestação de Serviço Autônomos, de um lado a saber o Senhor **HENRIQUE CESAR DA COSTA**, inscrito sob o número de RG: 1839497-3 e CPF: 034.504.761-30 doravante denominado simplesmente contratado e de outro **RECHEADOS SA ESFIHARIA LTDA**, Logrado na Rua Moscou (Lot Rodoviaria Parque), número 368, Quadra 19, casa 62 - Res, Despraiado, Cuiabá - MT, 78.048-130, com CNPJ de número 30.198.989/0001-50, doravante denominada simplesmente contratante, abaixo assinados, tem entre si justo e convencionado o seguinte: O Contratado **HENRIQUE CESAR DA COSTA** oferece seus serviços de conhecimentos técnicos e profissionais, nos termos dos parâmetros descritos no Termo de Referência inerente à Proposta de Prestação de Serviço descrita abaixo, solicitada via reunião e mensagem eletrônica.
+
+
+Na hipótese das negociações serem realizadas durante o prazo de validade desta Proposta, ou seja, até a data inicial de execução do contrato, comprometemo-nos a negociar com base nas discriminações da presente proposta, sendo que após a entrega da Proposta de Serviço estará sujeita às modificações que porventura se fizerem necessárias, podendo resultar em novas negociações para o fechamento do respectivo Contrato de Prestação de Serviços. Cientes de que V.Sas. não se obrigam a aceitar qualquer proposta recebida, aguardamos retorno e nos colocamos a disposição para maiores esclarecimentos.
+
+Este é uma proposta comercial de serviço técnico e profissional para o Contratante. Considerando que, o Contratado é um profissional de boa reputação e conduta; Visto que o Contratante deseja que o Contratado forneça determinado serviço técnico e profissional descrito mais detalhadamente a seguir; e Considerando que, o Contratado deseja fornecer tal serviço; Agora, portanto, em consideração das premissas acima e das convenções mútuas descritas a seguir e outras considerações valiosas, as partes concordam com o seguinte:
+
+# RESPONSABILIDADES
+
+O contratado fornecerá serviços técnicos e profissionais para o Contratante e serão determinados de forma colaborativa pelo Contratante e pelo Contratado.
+
+
+As responsabilidades do Contratado incluem a colaboração com o Contratante para estabelecer requisitos e prioridades com base nos objetivos de negócios do Contratante; desenvolvimento de técnicas e estratégias de acordo com estes requisitos e prioridades; implantação de metodologias e processos de trabalho; e para administração do negócio.
+
+
+Em apoio a essas metas, espera-se que o Contratante trabalhe com o Contratado para definir prioridades, revisar processos conforme os mesmo são desenvolvidos e produzir pesquisa e especificações de análises conforme necessário. O Contratante e o Contratado organizarão reuniões periódicas e discussões por telefone e
+mensagem eletrônica para apoiar essa colaboração.
+
+
+# OBJETIVO DA PRESTAÇÃO DE SERVIÇO
+
+A necessidade da Solicitante **RECHEADOS SA ESFIHARIA LTDA** pela prestação de serviços técnico e profissionais, origina-se a partir da condição de *Déficit* das contas, e ausência de processos financeiros estruturados, que porventura é instrumento estratégico para tomada de decisão gerencial, ou seja, o problema a ser tratado com a empresa é a estruturação econômico-financeiro, bem como implementação de processos estratégicos.
+
+
+O proponente acredita que as necessidades do Contratante poderão ser atendidas, desde que haja a implementação de processos operacionais e plano de negócios e uma análise de viabilidade econômico-financeira. Estes requisitos são imprescindível para o bom funcionamento do plano de execução que será estruturado.
+
+
+
+# PROPOSTA DE SERVIÇO
+
+O contratado, prestador do serviço, propõe um plano de trabalho para execução juntamente com o Contratante. A seguir os itens proposto para execução pelo Contratado:
+
+
+&nbsp;
+
+
+  - Avaliação da empresa.
+
+  - Treinamento Técnicos para Gestores (opcional)
+    - Princípios Básicos de Economia e Mercados.
+    - Contabilidade Básica (para tomada de decisões gerenciais).
+    - Elaboração de Indicadores Chave de Desempenho (KPI´s).
+
+  - Desenvolvimento e Implantação de novas praticas, estruturando uma nova cultura empresarial.
+    - Desenvolvimento de fluxo de caixa.
+    - Controle de Produção e Insumos.
+    - Controle de Compras e Contas a Pagar/Receber.
+    - Controle de Custos.
+    - Estratégia Operacional.
+    - KPI’s e Inteligência de Negócio
+    - Gestão e Competitividade
+
+  - Elaboração do Plano de Negócios
+    - Aspectos Atuais de Produção e Mercado.
+    - Situação Econômico-Financeira Atual.
+    - Elaboração do Mark-up, reajutes de Receitas e Lucros.
+    - Aspectos legais e Fiscais.
+    - Análise de Cenários e Projeções.
+    - Plano Estratégico.
+  - Gestão de Capital e Risco
+    - Capital de Giro.
+    - Reserva de Capital
+    - Investimentos.
+
+
+# VALORES REFERENTES A PROPOSTA DE SERVIÇO
+
+
+```{r pressure, echo=FALSE}
+
+library(readxl)
+
+tabela <- read_excel("price_table.xlsx", 
+    sheet = "Plan1")
+
+
+library(knitr)
+library(kableExtra)
+
+
+
+kable(tabela) %>%
+  kable_styling("striped", full_width = F) %>%
+  pack_rows("Avaliação da Empresa", 1, 1, label_row_css = "background-color: #3E75C4; color: #fff;") %>%
+  pack_rows("Treinamento Técnico", 2, 4, label_row_css = "background-color: #3E75C4; color: #fff;")%>%
+  pack_rows("Estrutura de Gestão", 5, 8, label_row_css = "background-color: #3E75C4; color: #fff;")%>%
+  pack_rows("Plano de Negócios", 9, 16, label_row_css = "background-color: #3E75C4; color: #fff;")%>%
+  pack_rows("Gestão de Capital e Risco", 17, 19, label_row_css = "background-color: #3E75C4; color: #fff;")
+
+
+```
+
+
+
+A sigla VHT correspode à Valor por Hora e Trabalho. A sigla HT são Horas por Trabalho, e VT é Valor Total.  O Valor-piso da Hora de Trabalho de Economia - VHTE é definido pelo Conselho Federal de Economia, o VHTE é o valor base. Outros valores são definidos a partir da natureza do serviço prestado. Estas informações são encontradas em anexo.
+
+Agora, portanto, em consideração das premissas acima e das convenções mútuas descritas e outras considerações valiosas, as partes concordam e assinam:
+
+
+\vspace{10 mm}
+
+
+\noindent \begin{tabular}{l l l}
+CONTRATANTE: & \rule{6.5cm}{.5pt} & Data: \rule{2.4cm}{.5pt}\\
+                         & RECHEADOS SA ESFIHARIA LTDA      & \\\\\\\\
+CONTRATADO:          & \rule{5.8cm}{.5pt} & Data: \rule{2.4cm}{.5pt}\\
+                         & HENRIQUE CESAR DA COSTA      & \\
+\end{tabular}
+
+
+
+
+\includepdf[pages=-,pagecommand={}]{honorarios.pdf}
+
+\includepdf[pages=-,pagecommand={}]{corecon-honorarios.pdf}
+
